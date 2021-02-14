@@ -1,0 +1,3 @@
+/Users/maithaalhayyas/CLionProjects/POCKER_HAND/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maithaalhayyas/CLionProjects/POCKER_HAND/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maithaalhayyas/CLionProjects/POCKER_HAND/cmake-build-debug/CMakeFiles/POCKER_HAND.dir
