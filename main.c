@@ -19,10 +19,10 @@ int value( char a )
     return a - '2';
 }
 
-int compare(char cards[][3])
+int compare(char cards[][3]) 
 {
 
-    for (int i = 5; i > 1; i--){
+    for (int i = 5; i > 1; i--){  // make the cards in a order
         for (int j = 1; j < i; j++){
             if (cards[j-1][0] > cards[j][0]) {
 
@@ -44,7 +44,7 @@ int compare(char cards[][3])
 
     memset(maps, 0, sizeof(maps));
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++) {  //if get card in that position it fill with 1
         maps[color(cards[i][1])][value(cards[i][0])] ++;
         maps[4][value(cards[i][0])] ++;
     }
